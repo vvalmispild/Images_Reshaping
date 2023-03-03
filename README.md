@@ -1,24 +1,22 @@
-## Summary
+### Summary
 
 This Python code processes a dataset of Green's functions and creates arrays of Green's functions. It then compresses the arrays to (sample*sample) size and saves them as images.
 
-## Requirements
+### Requirements
 
 This code requires the following libraries to be installed:
-
 numpy
 pandas
 matplotlib
 scipy
 skimage
 
-
-## Installation
+### Installation
 
 To install the required libraries, you can use pip:
 pip install numpy pandas matplotlib scipy scikit-image
 
-## Usage
+### Usage
 
 To use the code, you need to have a dataset of Green's functions in a CSV file named "Gloc.out". The CSV file should have the following format:
 
